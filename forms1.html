@@ -101,7 +101,7 @@
                     <input type="range" id="scroll" min="5" max="10" name="scrollbar">
 
                 </p>
-
+                <!--  -->
                 <p>
                     <label for="requests">Type Into This Box</label>
                     <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
@@ -110,6 +110,27 @@
 
                 <button>Submit Button</button>
             </form>
+    </section>
+    <hr>
+    <!--  -->
+    <section>
+        <h2>Form Validations</h2>
+        <form action="/bananas"> 
+            <!--  -->
+            <label for="required1"></label>
+            <input type="text" name="funny" id="required1" required>
+
+            <!--  -->
+            <label for="length"></label>
+            <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+
+                <input type="email" required>
+
+            </p>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
 </body>

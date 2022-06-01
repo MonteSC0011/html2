@@ -99,6 +99,7 @@ console.log(document.all[10])
 //////////////////////////////////////////////////////////////////////////////
 ////////////GetElementByTagName
 
+// 
 var li = document.getElementsByTagName('li');
 
 console.log(li); 
@@ -108,6 +109,15 @@ li[1].textContent = "Hello 2 Now";
 li[1].style.fontWeight = 'bold';
 li[1].style.backgroundColor = 'green';
 li[1].style.color = 'white'; 
+
+for(var i = 0; i < li.length; i++) {
+
+    li[i].style.backgroundColor = 'lightgrey';
+    li[i].textContent = "I Changed The Items From the DOM";
+    li[i].style.color = 'white'; 
+
+}
+
 
 
 

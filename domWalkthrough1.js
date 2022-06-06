@@ -82,7 +82,7 @@ console.log(document.all[10])
 //     console.log(i);
 // }
 
-// const myDiamonds = ['Snacky','Scary','Lily','IttyBitty','Pinchie', 'Piggy','Lanky','Nibbles','Kibbles'];
+// const myDiamonds = ['Snacky','Scary','Lily', 'Kitty','IttyBitty','Pinchie', 'Piggy','Lanky','Nibbles','Kibbles'];
 
 // for (let i = 0; i < myDiamonds.length; i++) {
 //     console.log(i, myDiamonds[i]);
@@ -126,7 +126,12 @@ var header = document.querySelector('#main-header');
 header.style.borderBottom = 'solid 4px hotpink'; 
 
 var input = document.querySelector('input');
-input.value = "I just changed the text value in the input box."
+input.value = "I just changed the text value in the input box.";
+
+var submit = document.querySelector('input[type="submit"]');
+
+submit.value = "HELLO BUTTON";
+
 
 
 

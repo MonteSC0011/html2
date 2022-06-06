@@ -121,19 +121,28 @@ console.log(document.all[10])
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////////////Query Selector:
 
-// 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px hotpink'; 
+// // 
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px hotpink'; 
+// // 
+// var input = document.querySelector('input');
+// input.value = "I just changed the text value in the input box.";
+// // 
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value = "HELLO BUTTON";
+// // 
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'blue'; 
 
-var input = document.querySelector('input');
-input.value = "I just changed the text value in the input box.";
+// var otherItem = document.querySelector('.list-group-item:nth-child(2)');
+// otherItem.style.color = 'coral';
 
-var submit = document.querySelector('input[type="submit"]');
+///////////////////////////////////////////////////////////////////////////
 
-submit.value = "HELLO BUTTON";
+var titles = document.querySelectorAll('.title');
+console.log(titles);
 
-
-
+titles[0].textContent = 'Hello, I just changed the Title';
 
 
 

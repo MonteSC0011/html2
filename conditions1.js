@@ -50,23 +50,42 @@
 //     console.log("You are over the age of 35.");
 // }
 
-const fruit = 'Peach';
+// const fruit = 'Peach';
 
-switch (fruit) {
+// // 
+// switch (fruit) {
 
-    case 'Oranges':
-        console.log("Oranges are $0.59 a pound");
-        break;
-    case 'Bananas':
-        console.log("Bananas are $0.10 a pound");
-        break;
-    case 'Avocados':
-        console.log("Advocados are expensive");   
-        break; 
-    case 'Papayas':
-        console.log("Papayas are $0.70 a pound");
-        break;
-    default:
-        console.log("Last Resort If All Conditions Fail");
+//     case 'Oranges':
+//         console.log("Oranges are $0.59 a pound");
+//         break;
+//     case 'Bananas':
+//         console.log("Bananas are $0.10 a pound");
+//         break;
+//     case 'Avocados':
+//         console.log("Advocados are expensive");   
+//         break; 
+//     case 'Papayas':
+//         console.log("Papayas are $0.70 a pound");
+//         break;
+//     default:
+//         console.log("Last Resort If All Conditions Fail");
 
+// }
+
+const password = prompt("Enter in a new password");
+
+if (password.length >= 6) {
+
+    if (password.indexOf(' ') === -1) {
+
+        console.log("Valid Password");
+
+    } else {
+
+        console.log("Password Cant Have Spaces");
+    }
+
+} else {
+
+    console.log("Password is too short");
 }

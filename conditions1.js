@@ -31,22 +31,42 @@
 //     console.log("You have the correct Day from the variable"); 
 // }
 
-const age = prompt("Enter An Age");
+// const age = prompt("Enter An Age");
 
-if (age < 5) {
+// if (age < 5) {
 
-    console.log("Hey, you're a baby!");
+//     console.log("Hey, you're a baby!");
 
-} else if (age < 10) {
+// } else if (age < 10) {
 
-    console.log("Hey, you're just a kid!");
-} else if (age < 35) {
+//     console.log("Hey, you're just a kid!");
+// } else if (age < 35) {
 
-    console.log("You're getting older.");
+//     console.log("You're getting older.");
+// }
+// // IF ALL OTHER CONDITIONS FAIL - ELSE.
+// else {
+
+//     console.log("You are over the age of 35.");
+// }
+
+const fruit = 'Peach';
+
+switch (fruit) {
+
+    case 'Oranges':
+        console.log("Oranges are $0.59 a pound");
+        break;
+    case 'Bananas':
+        console.log("Bananas are $0.10 a pound");
+        break;
+    case 'Avocados':
+        console.log("Advocados are expensive");   
+        break; 
+    case 'Papayas':
+        console.log("Papayas are $0.70 a pound");
+        break;
+    default:
+        console.log("Last Resort If All Conditions Fail");
+
 }
-// IF ALL OTHER CONDITIONS FAIL - ELSE.
-else {
-
-    console.log("You are over the age of 35.");
-}
-

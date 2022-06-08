@@ -72,20 +72,41 @@
 
 // }
 
-const password = prompt("Enter in a new password");
+// 
+// const password = prompt("Enter in a new password");
 
-if (password.length >= 6) {
+// if (password.length >= 6) {
+//     if (password.indexOf(' ') === -1) {
+//         console.log("Valid Password");
+//     } else {
+//         console.log("Password Cant Have Spaces");
+//     }
+// } else {
+//     console.log("Password is too short");
+// }
 
-    if (password.indexOf(' ') === -1) {
+function singSong() {
 
-        console.log("Valid Password");
-
-    } else {
-
-        console.log("Password Cant Have Spaces");
-    }
-
-} else {
-
-    console.log("Password is too short");
+    console.log("DO");
+    console.log("RE");
+    console.log("ME");
 }
+
+singSong()
+singSong()
+singSong()
+
+function greet(firstName) {
+
+    console.log(`Hey There, ${firstName}`)
+}
+
+greet('Boomer');
+
+
+function greet1(firstName,lastName) {
+
+    console.log(`Hey There, ${firstName} ${lastName}`)
+}
+
+greet1('Boomer','Sooner');
